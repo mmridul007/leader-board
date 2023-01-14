@@ -1,0 +1,47 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Qwitcher+Grypen:wght@700&family=Work+Sans&display=swap');
+
+body{
+    margin: 0;
+    background-color: #F3F1FF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header section started */
+.nav-container{
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+}
+/* Part-1  */
+.nav-container .part-1{
+    display: flex;
+    gap: 15.56px;
+    align-items: center;
+    margin-left: 285px;
+}
+.nav-container .part-1 img{
+    width: 40.42px;
+    height: 51px;
+}
+
+.nav-container .part-1 h3{
+    color: #FFFFFF;
+}
+/* Part-2  */
+.nav-container .part-2{
+    display: flex;
+    gap: 36px;
+    margin-right: 289px;
+    align-items: center;
+}
+.nav-container .part-2 img{
+    width: 51px;
+    height: 51px;
+}
+.nav-container .part-2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
